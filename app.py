@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🎛️ Streamlit Widgets Demo")
+st.title("🎛️ NPS Streamlit Widgets Demo")
 
 # --- Text Input ---
 name = st.text_input("What's your name?")
