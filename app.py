@@ -55,3 +55,13 @@ if st.button("Submit"):
 with st.expander("🔍 See the code"):
     st.code(open(__file__, encoding="utf-8").read(), language='python')
 
+hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    .stActionButtonIcon {display: none;} /* ซ่อน Share, GitHub */
+    </style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
